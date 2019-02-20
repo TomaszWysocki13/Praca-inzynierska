@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,700&subset=latin-ext");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+textarea {
+  font-family: "Raleway", sans-serif;
+}
+
+body,
+#root,
+.fullHeight {
+  height: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1140px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  color: #fff;
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.ant-layout-sider-collapsed {
+  .logo {
+    font-size: 15px;
+  }
+}
+
+.header {
+  background: #fff;
+  padding: 0 15px;
+}
+
+.headline {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background: transparentize(#fff, 0.5);
+  padding: 20px 15px;
+  margin-bottom: 5px;
+
+  h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+.content {
+  margin: 20px 15px;
+
+  .box {
+    margin-bottom: 10px;
+  }
+}
+
+.sidebar-trigger {
+  font-size: 18px;
+}
+
+.actions {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+
+  button {
+    margin: 0 5px 5px 0;
+  }
+}
+
+tr:hover .actions {
+  opacity: 1;
+}
+
+.alerts {
+  margin: 0 16px;
+
+  & > div {
+    margin-top: 5px;
+  }
+
+  & > div:first-child {
+    margin-top: 24px;
+  }
+}
+
+.header-right {
+  float: right;
+
+  & > div {
+    margin-left: 10px;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.loading {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 36px;
+}
+
+.green {
+  color: #52c41a;
+}
+
+.red {
+  color: #f5222d;
+}
+
+.chart {
+  height: 300px;
+  width: 100%;
+}
+
+// rewrites
+.ant-layout {
+  height: 100%;
+}
+
+.ant-layout-content {
+  min-height: auto;
+}
+
+.ant-form .alerts {
+  margin: 0 0 10px;
+}
+
+.ant-form-item-label {
+  line-height: 1;
+}
+
+.ant-form-item {
+  margin-bottom: 10px;
+}
+
+.ant-form-explain-holder:empty {
+  display: none;
+}
+
+.ant-card {
+  margin-bottom: 15px;
+}
